@@ -17,7 +17,7 @@
 
 enum layer_names {
     _BASE,
-    _FN
+    _FN,
 	_EXTRA_ONE,
 	_EXTRA_TWO
 };
