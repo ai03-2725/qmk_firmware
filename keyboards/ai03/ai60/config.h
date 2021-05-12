@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID   0x0019
 #define DEVICE_VER   0x0001
 #define MANUFACTURER ai03 Design Studio
-#define PRODUCT      Polaris V2
+#define PRODUCT      AI60
 
 /* key matrix size */
 #define MATRIX_ROWS 5
