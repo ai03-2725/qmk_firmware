@@ -40,14 +40,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-#define MATRIX_ROW_PINS { D4, D5, D3, B2, B3 }
-#define MATRIX_COL_PINS { D2, F0, F1, F4, F5, F6, F7, C7, C6, B6, B5, B4, D7, D6 }
+#define MATRIX_ROW_PINS { B7, D3, F4, F1, F0 }
+#define MATRIX_COL_PINS { B2, D2, F5, F6, F7, C7, C6, B6, B5, B4, D7, D6, D4, D5 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
-#define LED_CAPS_LOCK_PIN B7
+#define LED_CAPS_LOCK_PIN B3
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
