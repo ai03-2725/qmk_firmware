@@ -5,13 +5,6 @@
 
 #include "config_common.h"
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID       0x6964   // "id"
-#define PRODUCT_ID      0x0087
-#define DEVICE_VER      0x0002
-#define MANUFACTURER    IDOBAO
-#define PRODUCT         ID87
-
 /* key matrix size */
 #define MATRIX_ROWS 11
 #define MATRIX_COLS 9
@@ -79,9 +72,6 @@
 #    define ENABLE_RGB_MATRIX_HUE_BREATHING
 #    define ENABLE_RGB_MATRIX_HUE_PENDULUM
 #    define ENABLE_RGB_MATRIX_HUE_WAVE
-#    define ENABLE_RGB_MATRIX_PIXEL_RAIN
-#    define ENABLE_RGB_MATRIX_PIXEL_FLOW
-#    define ENABLE_RGB_MATRIX_PIXEL_FRACTAL
 // enabled only if RGB_MATRIX_FRAMEBUFFER_EFFECTS is defined
 #    define ENABLE_RGB_MATRIX_TYPING_HEATMAP
 #    define ENABLE_RGB_MATRIX_DIGITAL_RAIN
@@ -153,10 +143,6 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
-
-/* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
 
 /* Bootmagic Lite key configuration */
 //#define BOOTMAGIC_LITE_ROW 0
