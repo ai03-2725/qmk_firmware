@@ -2,8 +2,6 @@
 
 #pragma once
 
-#include "config_common.h"
-
 
 /* Board-specific RGBLED configuration */
 
