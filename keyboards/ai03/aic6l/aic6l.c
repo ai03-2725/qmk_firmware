@@ -14,8 +14,8 @@
    Simple white medium brightness if left unconfigured */
 via_config g_config = {
     .indicator_caps_lock_color = {128, 128, 128},
-    .indicator_layer_1_color = {128, 128, 128},
-    .indicator_layer_2_color = {128, 128, 128}
+    .indicator_layer_1_color   = {128, 128, 128},
+    .indicator_layer_2_color   = {128, 128, 128}
 };
 
 void values_load(void)
