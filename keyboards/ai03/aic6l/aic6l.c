@@ -132,3 +132,4 @@ void _get_color( HSV *color, uint8_t *data )
     data[1] = color->s;
 }
 
+#endif /* VIA_ENABLE */
