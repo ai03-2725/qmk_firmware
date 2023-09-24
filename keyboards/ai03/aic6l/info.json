@@ -15,7 +15,8 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "rgb_matrix": true
     },
     "build": {
         "debounce_type": "asym_eager_defer_pk"
@@ -24,10 +25,16 @@
         "caps_lock": "B0",
         "on_state": 0
     },
-    "rgblight": {
-        "led_count": 3,
-        "pin": "D2",
-        "animations": {}
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "layout": [
+            { "flags": 1, "matrix": [3, 11], "x": 0, "y": 0 },
+            { "flags": 4, "matrix": [3, 12], "x": 15, "y": 0 },
+            { "flags": 4, "matrix": [3, 13], "x": 30, "y": 0 }
+        ]
+    },
+    "ws2812": {
+        "pin": "D2"
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {

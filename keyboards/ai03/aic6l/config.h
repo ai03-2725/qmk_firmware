@@ -8,7 +8,17 @@
 /* Disable RGB keycodes - should only be controlled programatically as indicators */
 #define RGBLIGHT_DISABLE_KEYCODES
 
-/* By default disable RGBs - their state should be set programatically */
-#define RGBLIGHT_DEFAULT_HUE 0
-#define RGBLIGHT_DEFAULT_SAT 0
-#define RGBLIGHT_DEFAULT_VAL 0
+#define RGB_MATRIX_LED_COUNT 3
+#define RGB_MATRIX_DEFAULT_VAL 60
+#define RGB_MATRIX_KEYPRESSES
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#define RGB_DISABLE_WHEN_USB_SUSPENDED
+
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_COLOR
+
+#define ENABLE_RGB_MATRIX_BREATHING
+#define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+
+#define CAPS_INDICATOR_INDEX 0
+#define LAYERS_INDICATOR_INDEX_LEFT 1
+#define LAYERS_INDICATOR_INDEX_RIGHT 2
