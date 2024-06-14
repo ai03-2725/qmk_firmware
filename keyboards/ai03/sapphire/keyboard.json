@@ -16,7 +16,8 @@
         "encoder": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "rgblight": true
     },
     "encoder": {
         "rotary": [
