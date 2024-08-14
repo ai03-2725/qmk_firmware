@@ -17,10 +17,10 @@ enum via_indicator_value {
 
 /* Struct to save configs */
 typedef struct {
-    bool caps_indicator_enabled;
-    HSV caps_indicator_color;
-    bool layers_indicator_enabled;
-} via_config;
+    bool caps_indicator_enabled:1;   // |
+    bool layers_indicator_enabled:1; // 1 byte
+    HSV caps_indicator_color;        // 3 bytes
+} via_config; // Total 4 bytes
 
 
 /* Function declaration */
