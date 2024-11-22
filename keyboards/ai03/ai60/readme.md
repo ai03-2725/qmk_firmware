@@ -2,11 +2,11 @@
 
 ![ai60](imgur.com image replace me!)
 
-Unified 60% PCB for use in various ai03 keyboards
+Unified 60% PCB for use in Polaris V2 and similar keyboards
 
 * Keyboard Maintainer: [ai03 Design Studio](https://github.com/ai03-2725)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: AI60 series PCBs
+* Hardware Availability: Bundled in Polaris V2 group buy units
 
 Make example for this keyboard (after setting up your build environment):
 
